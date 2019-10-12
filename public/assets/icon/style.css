@@ -1,0 +1,522 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?61g0tr');
+  src:  url('fonts/icomoon.eot?61g0tr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?61g0tr') format('truetype'),
+    url('fonts/icomoon.woff?61g0tr') format('woff'),
+    url('fonts/icomoon.svg?61g0tr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logout:before {
+  content: "\e9a2";
+}
+.icon-Plus-symbol-copy:before {
+  content: "\e9a3";
+}
+.icon-Profile-settings:before {
+  content: "\e9a4";
+}
+.icon-Touch-with-us:before {
+  content: "\e9a6";
+}
+.icon-addnewzedua:before {
+  content: "\e9a1";
+}
+.icon-Profile:before {
+  content: "\e9a0";
+}
+.icon-warning:before {
+  content: "\e99d";
+}
+.icon-Bell:before {
+  content: "\e98c";
+}
+.icon-clap-hands1:before {
+  content: "\e98d";
+}
+.icon-clap:before {
+  content: "\e98e";
+}
+.icon-Comment:before {
+  content: "\e98f";
+}
+.icon-copy:before {
+  content: "\e990";
+}
+.icon-exclamation-mark-inside-a-circle:before {
+  content: "\e991";
+}
+.icon-Gif:before {
+  content: "\e992";
+}
+.icon-Hamberger:before {
+  content: "\e993";
+}
+.icon-Kebab:before {
+  content: "\e994";
+}
+.icon-Landmark:before {
+  content: "\e995";
+}
+.icon-minus-symbol:before {
+  content: "\e996";
+}
+.icon-picture:before {
+  content: "\e997";
+}
+.icon-Search:before {
+  content: "\e998";
+}
+.icon-Share:before {
+  content: "\e999";
+}
+.icon-Triangle:before {
+  content: "\e99a";
+}
+.icon-videocamera:before {
+  content: "\e99b";
+}
+.icon-visibility:before {
+  content: "\e99c";
+}
+.icon-linkedin-logo-1:before {
+  content: "\e98b";
+}
+.icon-filter-2:before {
+  content: "\e98a";
+}
+.icon-add-symbol:before {
+  content: "\e988";
+}
+.icon-arrow-down-sign-to-navigate:before {
+  content: "\e989";
+}
+.icon-list:before {
+  content: "\e987";
+}
+.icon-error:before {
+  content: "\e985";
+  color: #4a4a4a;
+}
+.icon-Suit-case-claim:before {
+  content: "\e986";
+}
+.icon-online-shopping-cart:before {
+  content: "\e984";
+}
+.icon-Fill-New-Like:before {
+  content: "\e981";
+}
+.icon-New_Like:before {
+  content: "\e982";
+}
+.icon-rupee:before {
+  content: "\e983";
+}
+.icon-Change-Details:before {
+  content: "\e979";
+}
+.icon-Classes:before {
+  content: "\e97a";
+}
+.icon-Dashboard:before {
+  content: "\e97b";
+}
+.icon-eye:before {
+  content: "\e97c";
+}
+.icon-homepage:before {
+  content: "\e97d";
+}
+.icon-Legend:before {
+  content: "\e97e";
+}
+.icon-list-text:before {
+  content: "\e97f";
+}
+.icon-students:before {
+  content: "\e980";
+}
+.icon-Blog-new-1:before {
+  content: "\e972";
+}
+.icon-clap-hands:before {
+  content: "\e973";
+}
+.icon-edit-draw-pencil:before {
+  content: "\e974";
+}
+.icon-Group-14 .path1:before {
+  content: "\e975";
+  color: rgb(245, 166, 35);
+}
+.icon-Group-14 .path2:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(155, 155, 155);
+}
+.icon-hashtag:before {
+  content: "\e977";
+}
+.icon-question-mark:before {
+  content: "\e978";
+}
+.icon-water:before {
+  content: "\e95e";
+}
+.icon-academic-competitive-teams:before {
+  content: "\e95f";
+}
+.icon-art:before {
+  content: "\e960";
+}
+.icon-auditorium:before {
+  content: "\e961";
+}
+.icon-canteen:before {
+  content: "\e962";
+}
+.icon-Clubs:before {
+  content: "\e963";
+}
+.icon-Half-Trophy:before {
+  content: "\e964";
+}
+.icon-lab:before {
+  content: "\e965";
+}
+.icon-library:before {
+  content: "\e966";
+}
+.icon-medical:before {
+  content: "\e967";
+}
+.icon-performance-art:before {
+  content: "\e968";
+}
+.icon-physically-challanged-friendly:before {
+  content: "\e969";
+}
+.icon-play-ground:before {
+  content: "\e96a";
+}
+.icon-security:before {
+  content: "\e96b";
+}
+.icon-smart-boards:before {
+  content: "\e96c";
+}
+.icon-special-interest:before {
+  content: "\e96d";
+}
+.icon-speech-and-political-interest:before {
+  content: "\e96e";
+}
+.icon-sports:before {
+  content: "\e96f";
+}
+.icon-technology:before {
+  content: "\e970";
+}
+.icon-transport:before {
+  content: "\e971";
+}
+.icon-bus2:before {
+  content: "\e958";
+}
+.icon-cutlery:before {
+  content: "\e959";
+}
+.icon-disabled-sign:before {
+  content: "\e95a";
+}
+.icon-drink-water:before {
+  content: "\e95b";
+}
+.icon-first-aid-kit:before {
+  content: "\e95c";
+}
+.icon-projector-screen:before {
+  content: "\e95d";
+}
+.icon-mask:before {
+  content: "\e951";
+}
+.icon-pepole-group:before {
+  content: "\e952";
+}
+.icon-paint-palette-and-brush:before {
+  content: "\e953";
+}
+.icon-mouse:before {
+  content: "\e954";
+}
+.icon-Pencil-rating:before {
+  content: "\e955";
+}
+.icon-newspaper:before {
+  content: "\e956";
+}
+.icon-favorite-star-with-lines:before {
+  content: "\e957";
+}
+.icon-high-school:before {
+  content: "\e945";
+}
+.icon-microscope-side-view:before {
+  content: "\e946";
+}
+.icon-playground:before {
+  content: "\e947";
+}
+.icon-stethoscope-medical-tool:before {
+  content: "\e948";
+}
+.icon-book:before {
+  content: "\e949";
+}
+.icon-camera:before {
+  content: "\e94a";
+}
+.icon-stadium:before {
+  content: "\e94b";
+}
+.icon-Trophy-line:before {
+  content: "\e94c";
+}
+.icon-Trophy-fill:before {
+  content: "\e94d";
+}
+.icon-Arrow-top:before {
+  content: "\e94e";
+}
+.icon-Map-view:before {
+  content: "\e94f";
+}
+.icon-Grid-icons:before {
+  content: "\e950";
+}
+.icon-location-pin-dot:before {
+  content: "\e943";
+}
+.icon-back:before {
+  content: "\e944";
+}
+.icon-envelope:before {
+  content: "\e93d";
+}
+.icon-image:before {
+  content: "\e93e";
+}
+.icon-jpg:before {
+  content: "\e93f";
+}
+.icon-png:before {
+  content: "\e940";
+}
+.icon-upload:before {
+  content: "\e941";
+}
+.icon-telephone:before {
+  content: "\e942";
+}
+.icon-location-pin:before {
+  content: "\e934";
+}
+.icon-settings:before {
+  content: "\e935";
+}
+.icon-following:before {
+  content: "\e936";
+}
+.icon-medal-with-star:before {
+  content: "\e937";
+}
+.icon-pencil:before {
+  content: "\e938";
+}
+.icon-delete-button:before {
+  content: "\e939";
+}
+.icon-Sub-menu:before {
+  content: "\e93a";
+}
+.icon-cancel:before {
+  content: "\e93b";
+}
+.icon-video-camera:before {
+  content: "\e93c";
+}
+.icon-bus:before {
+  content: "\e930";
+}
+.icon-photo-camera:before {
+  content: "\e931";
+}
+.icon-two-round-overlapping-speech-bubbles:before {
+  content: "\e932";
+}
+.icon-notification:before {
+  content: "\e933";
+}
+.icon-attachments:before {
+  content: "\e92e";
+}
+.icon-follow:before {
+  content: "\e92f";
+}
+.icon-more-button-interface-symbol-of-three-horizontal-aligned-dots:before {
+  content: "\e92c";
+}
+.icon-trophy:before {
+  content: "\e92d";
+}
+.icon-small-calendar:before {
+  content: "\e926";
+}
+.icon-Shape:before {
+  content: "\e927";
+}
+.icon-media-coverage:before {
+  content: "\e928";
+}
+.icon-teachers:before {
+  content: "\e929";
+}
+.icon-goal:before {
+  content: "\e92a";
+}
+.icon-microphone:before {
+  content: "\e92b";
+}
+.icon-power-circle-and-line-symbol:before {
+  content: "\e925";
+}
+.icon-flag:before {
+  content: "\e924";
+}
+.icon-about-us:before {
+  content: "\e900";
+}
+.icon-Acadamic-Profile:before {
+  content: "\e901";
+}
+.icon-achievement:before {
+  content: "\e902";
+}
+.icon-Arrow--right:before {
+  content: "\e903";
+}
+.icon-Arrow-slide--right:before {
+  content: "\e904";
+}
+.icon-Arrow-slide-left:before {
+  content: "\e905";
+}
+.icon-Blog:before {
+  content: "\e906";
+}
+.icon-bold:before {
+  content: "\e907";
+}
+.icon-clock:before {
+  content: "\e908";
+}
+.icon-COMMENT:before {
+  content: "\e909";
+}
+.icon-Compare-school:before {
+  content: "\e90a";
+}
+.icon-Create-blog:before {
+  content: "\e90b";
+}
+.icon-DROP-DWN:before {
+  content: "\e90c";
+}
+.icon-expert:before {
+  content: "\e90d";
+}
+.icon-Facebook:before {
+  content: "\e90e";
+}
+.icon-Facebook-pln:before {
+  content: "\e90f";
+}
+.icon-FEEDS:before {
+  content: "\e910";
+}
+.icon-Gallery:before {
+  content: "\e911";
+}
+.icon-google-plus:before {
+  content: "\e912";
+}
+.icon-google-plus-pln:before {
+  content: "\e913";
+}
+.icon-italic:before {
+  content: "\e914";
+}
+.icon-Job-openning:before {
+  content: "\e915";
+}
+.icon-LIKE:before {
+  content: "\e916";
+}
+.icon-liked-in:before {
+  content: "\e917";
+}
+.icon-LIKED:before {
+  content: "\e918";
+}
+.icon-Location:before {
+  content: "\e919";
+}
+.icon-menu:before {
+  content: "\e91a";
+}
+.icon-mobile:before {
+  content: "\e91b";
+}
+.icon-search:before {
+  content: "\e91c";
+}
+.icon-sHARE:before {
+  content: "\e91d";
+}
+.icon-smiley:before {
+  content: "\e91e";
+}
+.icon-Teaching-exp:before {
+  content: "\e91f";
+}
+.icon-TRENDS:before {
+  content: "\e920";
+}
+.icon-twitter:before {
+  content: "\e921";
+}
+.icon-twtr-pln:before {
+  content: "\e922";
+}
+.icon-Work-area:before {
+  content: "\e923";
+}

@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="filter">
+
+    </div>
+    <div class="table-responsive">
+        <table class="table"> 
+            <thead>
+                <tr>
+                    <th>S.no</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>role</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let admin of admins">
+                    <td scope="row"></td>
+                    <td>{{admin.name.firstname}}</td>
+                    <td>{{admin.username}}</td>
+                    <td>{{admin.role}}</td>
+                    <td class="edit"><mat-icon>edit</mat-icon></td> 
+                    <td class="delete" (click)="deleteAdmin(admin.id)"><mat-icon>delete</mat-icon></td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

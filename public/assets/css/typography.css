@@ -1,0 +1,162 @@
+/* For all devices */
+p{
+    margin:0;
+}
+.inline-block{
+    display: inline-block;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+.logo-text{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #43425d;
+}
+
+.slogan{
+    font-size: 18px;
+    color: #4d4f5c;
+}
+
+/* To align items in the middle of the div
+.login-form{
+     display: table;
+ }
+ .login-form h1{
+     display: table-cell;
+     vertical-align: middle;
+ }
+*/
+
+/* Signup & signIn */
+.form-container-sign{
+    width: 400px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.borderbtm{
+    border-bottom: 2px solid #e9e9f0;
+    position: relative;
+    margin: 30px 0;
+}
+.borderbtm .form-control{
+    border: none;
+    padding: .5rem .3rem;
+}
+.borderbtm .form-control:focus, .borderbtm .form-control:focus{
+    outline: none !important;
+   box-shadow: none;
+}
+.borderbtm span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 15px;
+    color: #43425d;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.borderbtm span::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height:2px;
+    background: linear-gradient(223.15deg, #242348 0%, #5a55aa 100%);
+    transition: 5s;
+}
+.focus + span::before{
+    top: -7%;
+}
+.focus + span::after{
+    width: 100%;
+}
+.sign-active{
+    background-color: #43425d;
+    border-radius: 3.5px;
+    border: 1px solid #43425d;
+    padding: 10px 60px;
+    color: #fff;
+    font-size: 18px !important;
+    overflow: hidden;
+}
+.sign-deactive{
+    border-radius: 3.5px;
+    border: 1px solid #43425d;
+    padding: 10px 60px;
+    color: #4d4f5c;
+    font-size: 18px !important;
+    overflow: hidden;
+
+}
+/* Signup & signIn */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .hidden-mobile{
+        display: none;
+    }
+    .form-container-sign{
+        width: 100%;
+    }
+    
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .hidden-mobile-landscape{
+        display: none;
+    }
+    .form-container-sign{
+        width:100%
+    }
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .hidden-tab{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .hidden-laptop{
+        display: none;
+    }
+}
+/* buttons */
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+    background-color: #5a55aa !important;
+}
+
+/* Modals style */
+.modal-content{
+    border-radius: 0 !important;
+    background: #fafafa;
+}
+/* Modals style ends */
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) { 
+    .hidden-desktop{
+        display: none;
+    }
+    .modal-content{
+        width: 150% !important;
+        transform: translate(-10%);
+    }
+}

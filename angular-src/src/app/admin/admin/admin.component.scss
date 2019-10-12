@@ -1,0 +1,79 @@
+.sidenav-container {
+    height: 100%;
+  }
+  
+  .sidenav {
+    width: 250px;
+    background: linear-gradient(223.15deg, #242348 0%, #5a55aa 100%);
+  }
+  
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  .sidebar-link{
+    color: #ffffff;
+}
+.is-active{
+    background: #39384c;
+    border-left: 5px solid #a3a0fb;
+}
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(223.15deg, #242348 0%, #5a55aa 0%);
+  }
+  .example-spacer {
+     /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+  .logout{
+    cursor: pointer;
+  }
+
+  /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .hidden-mobile{
+        display: none;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .hidden-mobile-landscape{
+        display: none;
+    }    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .hidden-tab{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .hidden-laptop{
+        display: none;
+    }
+}
+/* buttons */
+// .mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+//     background-color: #5a55aa !important;
+// }
+
+// /* Modals style */
+// .modal-content{
+//     border-radius: 0 !important;
+//     background: #fafafa;
+// }
+// /* Modals style ends */
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) { 
+    .hidden-desktop{
+        display: none;
+    }
+}

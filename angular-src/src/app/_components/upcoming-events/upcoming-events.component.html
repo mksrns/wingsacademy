@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let event of events">
+            <div class="card">
+                <!-- <img class="card-img-top" src="assets/images/kala1.jpg" alt=""> -->
+                <img class="card-img-top" src="{{event.eventImage}}" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">{{event.title}}</h4>
+                    <p class="card-text">{{event.description}}</p>
+                    <div class="clearfix">
+                        <span class="float-left">{{event.from}}</span>
+                        <span class="float-right">{{event.to}}</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>

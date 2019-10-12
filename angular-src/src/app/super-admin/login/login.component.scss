@@ -1,0 +1,41 @@
+.login-page, .scene, .login-form{
+    height: 100vh;
+}
+.login-page .scene{
+   background: linear-gradient(223.15deg, #242348 0%, #5a55aa 100%);
+}
+.login-form{
+    display: table;
+}
+.login-form .content{
+    display: table-cell;
+    vertical-align: middle;
+} 
+
+@media screen and (max-width: 600px){
+    .login-form{
+       background: linear-gradient(223.15deg, #242348 0%, #5a55aa 100%);
+    }
+    p{
+        color: white !important;
+    }
+    .sign-deactive{
+        display: none;
+    }
+    .sign-active{
+        background: #eeeef5;
+        color: #25244a;
+        margin-right: 0 !important;
+    }
+    .mt-5{
+        text-align: center;
+    }
+    .form-control{
+        background: none;
+        color: white;
+    }
+    .form-check-label{display: none}
+    .borderbtm span::before{
+        color: white !important;
+    }
+}

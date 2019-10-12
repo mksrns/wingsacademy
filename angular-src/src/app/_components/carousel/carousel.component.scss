@@ -1,0 +1,14 @@
+ .carousel-inner img {
+    width: 100%; 
+}
+
+@media (max-width: 480px) {
+    .carousel-inner img {
+        height: 201px !important; 
+    }
+}
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 400px; 
+    }
+}

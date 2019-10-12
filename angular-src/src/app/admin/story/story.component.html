@@ -1,0 +1,18 @@
+
+<!-- <input type="file" name="" id="" multiple (change)="selectMultipleImage($event)">
+<button type="submit" (click)="onMultipleSubmit()">Upload</button> -->
+
+
+<form [formGroup]="addStoryForm" (ngSubmit)="onMultipleSubmit()" class="">
+    <div class="row">
+      <div class="col-md-6">
+          <mat-form-field>
+              <input matInput formControlName="storyTitle" placeholder="Story Title">
+            </mat-form-field>
+      </div>
+      <div class="col-md-6"> 
+        <input type="file" multiple name="storyImages" (change)="selectMultipleImage($event)" />
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>

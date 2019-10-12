@@ -1,0 +1,32 @@
+table {
+    counter-reset: serial-number;  /* Set the serial number counter to 0 */
+}
+
+table td:first-child:before {
+    counter-increment: serial-number;  /* Increment the serial number counter */
+    content: counter(serial-number);  /* Display the counter */
+}
+.edit{
+    color: green;
+    cursor: pointer;
+}
+.delete{
+    color: red;
+    cursor: pointer;
+}
+.eventImg{
+    width: 15%;
+}
+.showImg{
+    width: 200px;
+}
+
+
+@media (max-width: 480px){
+    .form-width{
+        width: 75%;
+    }
+    .input-width{
+        width: 55%;
+    }
+}
